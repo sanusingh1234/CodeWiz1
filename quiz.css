@@ -1,0 +1,68 @@
+body 
+{
+    background-image: url(3540662.jpg);
+    font-family: 'Josefin Sans', sans-serif;
+    background-size: cover;
+}
+h1 {
+    color: hotpink;
+    margin-left: 110px;
+}
+.button 
+{
+    
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    float:right;
+    background-color: white;
+    margin: 0 2px 0 2px;
+    cursor: pointer;
+}
+.button a 
+{
+    text-decoration: none;
+    color: #555;
+    line-height: 25px;
+}
+#container 
+{
+    width:50%;
+    margin: 170px 450px;
+    padding: 50px 30px;
+    background-color:transparent;
+    border-radius:3px;
+    color: #fff;
+    box-shadow: 0 0 10px 0 transparent;
+}
+ul 
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 500px;
+}
+ul li
+{
+    transition:;
+    background-color: rebeccapurple;
+    box-shadow: 0 0 5px rebeccapurple,0 0 25px rebeccapurple,0 0 50px rebeccapurple,0 0 200px rebeccapurple;
+    width: 200px;
+    margin: 10px;
+    padding: 5px;
+    display: inline-block; 
+}
+#prev 
+{
+    display:none;
+}
+#next
+{
+    display:none;
+    width: 100px;
+    margin-top: 20px;
+    margin-right: 601px;
+}
+input[type="radio"]{
+    cursor:pointer;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title>break, continue and pass statement in python</title>
+    <link rel="stylesheet" href="chp10.css">
+<body>
+    <div class="boxes">
+    <h1>Pass statement :</h1>
+    
+    <p>'pass' staements are used to leave a conditional statement empty. If you leave empty any conditional statement without pass you will get an error but to oevercome or skip that error 'pass' is used in python. Example </p>
+    
+    <h3>Input :-</h3>
+    
+    <p>for x in [1,5,0] :<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pass <br>
+    m = 24 <br>
+    if m > 50 :<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pass<br>
+    print("huhh")<br></p>
+    
+    <h3>Output :-</h3>
+    
+    <p>huhh</p>
+    
+    <h1>Continue statement :</h1>
+    
+    <p>'continue' statements are used to continue to the next iteration by stoping the current one.Example </p>
+    
+    <h3>Input :-</h3>
+    
+    <p>i = 10<br>
+    while i < 20 :<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i = i + 1<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if i == 15 : <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;continue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#Here it will stop the loop on 15 and will again return to the while loop and will start printing from 16.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(i)<br></p>
+    
+    <h3>Output :-</h3>
+    
+    <p>11<br>
+    12<br>
+    13<br>
+    14<br>
+    16<br>
+    17<br>
+    18<br>
+    19<br>
+    20<br></p>
+    
+    <h4>Another Example :</h4>
+    
+    <h3>Input :-</h3>
+    
+    <p>bot = ["bot425", "bot223", "bot_hlo"]<br>
+    for x in bot :<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if x == "bot223" :<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;continue<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(x)</p>
+    
+    <h3>Output :-</h3>
+    
+    <p>bot425<br>
+    bot_hlo<br></p>
+    
+    <h1>break Statement :</h1>
+    
+    <p>Same as continue but it will break and exit the loop. Example given below</p>
+    
+    <h3>Input :-</h3>
+    
+    <p>bot = ["bot425", "bot223", "bot_hlo"]<br>
+    for x in bot :<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if x == "bot223" :<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(x)</p>
+    
+    <h3>Output :-</h3>
+    
+    <p>bot425<br>
+    bot223<br></p>
+    
+    <a href="home.html" class="connect-btn">Go to the home page</a>
+    </div>
+    
+</body>    
+</head>
+</html>

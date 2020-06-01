@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    background-image: url("9420.jpg");
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+.app-text{
+    margin-top: 60px;
+    margin-left: 300px;
+    width: 50%
+    float: left;
+}
+.app-text h1{
+    color: #D4AF37;
+    font-size: 45px;
+    width: 500px;
+    position: center;
+    margin-left: 360;
+    font-family: 'agency fb';
+}
+.app-text h2{
+    color: crimson;
+    font-size: 25px;
+    width: 748px;
+    margin-top: 15px;
+    position: relative;
+    margin-left: 45px;
+    font-family: 'agency fb';
+}
+TABLE{
+    margin-top: 40px;
+    margin-left: 105px;
+    box-sizing: border-box;
+}
+th{
+    color: #add868;
+    font-family: Bodoni MT;
+    font-size: 20px;
+}
+TR{
+    text-align: center;
+    color: snow;
+    font-size: 18px;
+}
+.Chapter1-btn{
+    top: 20px;
+    right: 80px;
+    text-decoration: none;
+    color: #ffffff;
+}

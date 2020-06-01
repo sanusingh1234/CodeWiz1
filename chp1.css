@@ -1,0 +1,41 @@
+*{
+    color: #000000;
+}
+body{
+    background-color: #000000;
+}
+.boxes{
+    width: 500px;
+    height: 2900px;
+    background-color: aliceblue;
+    margin-left: 420px;
+    border-radius: 10px;
+    margin: 100 center;
+    margin-top: 2.5em;
+    padding: 30px;
+    color: #ffffff;
+    text-align: justify;
+}
+h1{
+    font-family: 'Algerian';
+    text-align: center;
+}
+h2{
+    font-family: 'Modern No. 20';
+}
+p{
+    font-family: 'Aparajita';
+    font-size: 18px;
+}
+h4{
+    font-family: 'Aparajita';
+    font-size: 20px;
+    
+}
+.connect-btn{
+    cursor: pointer;
+    font-size: 15px;
+    color:goldenrod;
+    letter-spacing: 2px;
+    font-family: Agency fb;
+}

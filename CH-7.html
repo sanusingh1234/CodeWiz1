@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title>Lists,Tuples Sets</title>
+    <link rel="stylesheet" href="chp7.css">
+<body>
+    <div class="boxes">
+    <h1>Collections In Python :</h1>
+    
+    <p>Python have four types of data collection.</p>
+    
+    <p>a. List<br>
+    b. Tuple<br>
+    c. Set<br>
+    d. Dictionary<br></p>
+    
+    <h2>List :</h2>
+    
+    <p>List is a collection of data type which is ordered and can be changed(mutable). And are written with square brackets around them. It allows same members(duplicate) in it.</p>
+    <h4>Creating a List :-</h4>
+    
+    <h4>Input :-</h4>
+    
+    <p>List1 = ["python", "java", "C++"]<br>
+    print(List1)<br>
+    print(type(List1))</p>
+    
+    <h4>Output :-</h4>
+    
+    <p>['python', 'java', 'C++']<br>
+    class 'list'</p>
+    
+    <h2>Accessing Items in list</h2>
+    
+    <p>It is very easy to do this can be done by referring to their index number(index number refers to the position of the element in python it starts from 0 i.e the first element will have index no. of 0 and will continue till the last element). Example -</p>
+    
+    <h4>Input :-</h4>
+    
+    <p>print(List1[0])&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# It will print the first element of the list as indexes starts from 0<br>
+    print(List1[1])<br>
+    print(List1[2])<br></p>
+    
+    <h4>Output :-</h4>
+    
+    <p>python<br>
+    java<br>
+    C++<br></p>
+    
+    <h2>Negative Indexing</h2>
+    
+    <p>Negative indexing starts from the end of a collection, here the index of the last element is -1 and tthe last second is -2 and so on. Example -</p>
+    
+    <h4>Input :-</h4>
+    
+    <p>List1 = ["python", "java", "C++"]<br>
+    print(List1[-1])&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# It will print the first element from the last of the list as negative indexes starts from -1 from last<br>
+    print(List1[-2])<br>
+    print(List1[-3])<br></p>
+    
+    <h4>Output :-</h4>
+    
+    <p>C++<br>
+    java<br>
+    python<br></p>
+    
+    <h2>Range Of Indexes</h2>
+    
+    <p>In python we can specify range of indexes by specifying the starting and ending index. Same as accessing elements but with a ending index, while both are seprated by a colon. Example -</p>
+    
+    <h4>Input :-</h4>
+    
+    <p>list_2 = ["hey", "hi", "hlo", "banana", "fruits", "mango", "got you"]<br>
+    print(list_2[2:6])<br>
+    print(list_2[:])<br></p>
+    
+    <h4>Output :-</h4>
+    
+    <p>['hlo', 'banana', 'fruits', 'mango']<br>
+    ['hey', 'hi', hlo', 'banana', 'fruits', 'mango', 'got you']</p>
+    
+    <h3>If you leave the first value empty then it will start from the first item and as same for the end value it will go to the end of the list.</h3>
+    
+    <h2>Tuple</h2>
+    
+    <p>Tuple is a collection of data type which is ordered and can't be changed(immutable). And are written with round brackets around them. It allows same members(duplicate) in it. An example of a tuple is given below .</p>
+    
+    <h4>Input :-</h4>
+    
+    <p>tuple_a1 = ("python", "java", "C++")<br>
+    print(type(tuple_a1))<br>
+    print(tuple_a1)</p>
+    
+    <h4>Output :-</h4>
+    
+    <p>class 'tuple'<br>
+    ('python', 'java', 'C++')<br></p>
+    
+    <h4>Accessing items in tuples, and many other methods goes as same as lists. </h4>
+    
+    <h2>Changing tuple values.</h2>
+    
+    <p>Since tuples are immutable in python so we cannot change a variable in tuple but this can be done by following a different approach. First typecast the tuple into a list, now we can change the value as python allows us to change the value of a list. Example given below.</p>
+    
+    <h3>Input</h3>
+    
+    <p>tuple_a1 = ("python", "java", "C++")<br>
+    tuple_2 = list(tuple_a1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#Converting to list so as to change a desired value<br>
+    tuple_2[0] = "javascript" <br>
+    tuple_a1 = tuple(tuple_2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#Converting back list to tuple<br>
+    print(tuple_a1)</p>
+    
+    <h3>Output :-</h3>
+    
+    <p>('javascript', 'java', 'C++')<br></p>
+    
+    <h1>SETS</h1>
+    
+    <p>A set is a collection which is unordered, and unindexed. In python sets are written with curly bracket around them. Creating a set is shown below.</p>
+    
+    <h3>Input :-</h3>
+    
+    <p>set_1 = {"dotted", "choclate", "strawberry"}<br>
+    print(set_1)<br>
+    print(type(set_1))</p>
+    
+    <h3>Output :-</h3>
+    
+    <p>{'dotted', 'choclate', 'strawberry'}<br>
+     class 'set'</p>
+    
+    <p>In sets you cannot print values by index values but you have to loop  through it to print values.</p>
+    
+    <h3>Input :-</h3>
+    
+    <p>set_1 = {"dotted", "choclate", "strawberry'}<br>
+    <br>
+    for x in set_1 :&nbsp;&nbsp;&nbsp;&nbsp;#You can loop through the set items using a 'for' loop, or ask if a specified value is present in a set, by using the 'in' keyword.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(x)</p>
+    
+    <h3>Output :-</h3>
+    
+    <p>dotted<br>
+    choclate<br>
+    strawberry<br></p>
+    
+    <h3>You can use add(), update(), len(), remove(), discard(), pop(), union() to do operations on sets and there are many more functions availabe you can cehck them on python's official website. </h3>
+    
+    <h1>DICTIONARY :</h1>
+    
+    <p>A dictionary is a collection which is unordered, mutable and indexed. Basically dictionaries in python are similar to dictionaries which you use, python dictionaries have keys and values corrsponding to them. In python dictionaries are written with curly brackets around them. Creating a dictionary is shown below.</p>
+    
+    <h3>Input :-</h3>
+    
+    <p>dict_1 = {"total": "200", "boys": "125", "girls": "75"}<br>
+    print(dict_1)<br>
+    print(type(dict_1))<br></p>
+    
+    <h3>Output :-</h3>
+    
+    <p>{'total': '200', 'boys': '125','girls': '75'}<br>
+    class 'dict'</p>
+    
+    <h3>Collections in python have many functions or methods almost each of them have same way of syntax you can check all these on the python's official website, there you will find a lot of useful functions.</h3>
+    
+        <a href="CH-8.html" class="connect-btn">Click here for next lesson</a></div>
+    
+</body>    
+</head>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title>Numbers In Python </title>
+    <link rel="stylesheet" href="chp1.css">
+<body>
+    <div class="boxes">
+    <h1>Numbers</h1>
+    <p>In Python, Number data type is used to store numeric values.There are total 3 types of numbers in python. -</p>
+
+    <p>a. int<br>
+    b. float<br>
+        c. complex<br></p>
+    
+    <h2>Int</h2>
+    
+    <p>Int(integers) are whole numbers ranging from -ve infinity to +ve infinity, but without decimals. It means it has no fractional parts. For example: +34, -99, 67, etc.<br></p>
+        <h3>Example:</h3>
+    <h3>Input :- </h3>
+    <p>a = 89<br>
+    b = -8338738738<br>
+    print(type(a))<br>
+    print(type(b))<br></p>
+    
+    <h3>Output :- </h3>
+    
+    <p>int<br>
+    int<br></p>
+    
+    <h2>Float</h2>
+    
+    <p>Float(Floating Point Number), these are basically integers but with decimals. It means it has fractional part. In Python, Floting point numbers have precision of 15 digits.<br></p>
+    <h3>Example:</h3>
+    <h3>Input :-</h3>
+    
+    <p>a = 6.9<br>
+    b = 69.0<br>
+    c = -6969.6969<br>
+    d = -1.0<br>
+    print(type(a))<br>
+    print(type(b))<br>
+    print(type(c))<br>
+    print(type(d))<br></p>
+    
+    <h3>Output :-</h3>
+    
+    <p>float<br>
+    float<br>
+    float<br>
+    float<br></p>
+    
+    <h2>Complex : </h2>
+    <p>Complex numbers are of the form a+bi, where <b>i</b> is the imaginary number. <b>i</b> is euals to the square root of -1, or square if <b>i</b> is -1</p>
+    
+    
+    <h3>Example:</h3>
+    
+    <p>v = 10j,
+       b = -24j,
+       x = 69+6j</p>
+    <p>You can find out real or imaginary part by using (variablename).real or (variablename).imag respectively.</p>
+    <h3>Example:</h3>
+    <p>>>>  a=1.5+5.6i<br>>>>  a.real<br>1.5<br>>>>  a.imag<br>5.6</p>
+    
+    <h1>Converting Types </h1>
+    
+    <p>Convert from type to another : </p>
+    
+    <h3>Example :-</h3>
+    
+    <p>>>>  x = 1<br>
+    >>>  y = 1.2<br>
+    >>>  z = 5j<br>
+    >>>  p = float(x) # int to float<br>
+    >>>  q = int(y) #float to int <br>
+    >>>  r = complex(x) #int to complex<br>
+    >>>  print(p)<br>
+    >>>  print(q)<br>
+    >>>  print(r)<br>
+    >>>  print(type(p))<br>
+    >>>  print(type(q))<br>
+    >>>  print(type(r))<br></p>
+    
+    <h3>Output of the above code :-</h3>
+    
+    <p>1.0<br>
+    1<br>
+    1 + 0j<br>
+    float<br>
+    int<br>
+    complex<br></p>
+    <h1>Implicit type conversion</h1>
+    <p>It is a type of conversion performed by the compiler withot programmer's intefere. It is applied when in an operations the two operands are of different data types. It is also called Coercion.</p>
+    <h3>Example:</h3>
+        <p>>>>  a=5<br>>>>  b=8.0<br>>>>  c=a+b<br>>>>  print(c)<br>Now, the interpreter will convert int type to float type for the operation and print the output:<br>13.0</p>
+    <h1>Explicit type conversion</h1>
+        <p>It is the type of conversion performed by the programmer itself. Value of one data type is converted into another data type forcefully by the user.It is also called Type Casting.</p>
+        <h3>Example:</h3>
+        <p>>>>  a=5<br>>>>  print(float(a))<br>will print<br>5.0</p>
+    
+    <a href="CH-5.html" class="connect-btn">Click here for next lesson</a>
+    </div>
+    
+</body>    
+</head>
+</html>
